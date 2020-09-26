@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/actionHome"
+            android:icon="@drawable/ic_arrow_right_black_24dp"
+            android:orderInCategory="100"
+            android:title="Products"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/actionSocialGroup"
+            android:icon="@drawable/ic_arrow_right_black_24dp"
+            android:orderInCategory="100"
+            android:title="Social Group"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/actionContactUs"
+            android:icon="@drawable/ic_arrow_right_black_24dp"
+            android:orderInCategory="100"
+            android:title="Contact Us"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/actionAboutUs"
+            android:icon="@drawable/ic_arrow_right_black_24dp"
+            android:orderInCategory="100"
+            android:title="About Us"
+            app:showAsAction="never"/>
+
+
+
+
+    </group>
+
+</menu>
